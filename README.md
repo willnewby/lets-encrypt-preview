@@ -14,6 +14,16 @@ Apache, though we will be expanding it to other platforms.
 
 `sudo ./letsencrypt.py` (or `~/.local/bin/letsencrypt`)
 
+
+## Running the demo code on CentOS
+
+`sudo yum install python python-setuptools python-crypto openssl openssl-devel m2crypto python-dev python-augeas gcc swig dialog`
+
+`python setup.py install --user`
+
+`sudo ./letsencrypt.py` (or `~/.local/bin/letsencrypt`)
+
+
 Note, that letsencrypt does not yet handle Debian unstable's Apache2
 conf layout.
 
